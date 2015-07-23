@@ -1,0 +1,279 @@
+body {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto/9;
+}
+
+div#header {
+	background-image: url('../images/PencilHandHeader.png');
+	background-color: rgba(139, 164, 172, 0.5);
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+	min-height: 700px;
+
+}
+
+header {
+	margin-top:20px;
+
+}
+
+header h1 {
+	margin:0;
+	display: inline;
+}
+
+header h1 a img {
+	height: 45px;
+}
+
+header nav {
+	float:right;
+	list-style-type:none;
+	margin-top:15px;
+}
+
+header nav ul {
+	border-bottom: 4px solid #666666;
+  	padding-bottom: 7px;
+}
+
+header nav ul li {
+	display: inline;
+	padding: 0px 20px;
+	
+
+}
+header nav ul li.selected {
+	border-bottom: 4px solid #33bde7;
+	padding-bottom: 10px;
+}
+
+header nav ul li a {
+	color:#fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color:#ccc;
+}
+
+@media only screen and (max-width: 500px) {
+	header h1{
+		display: block;
+		text-align: center;
+		margin-top:20px;
+	}
+
+	header nav {
+		display: block;
+		float: none;
+	}
+
+	header nav ul {
+		border-bottom: none;
+		text-align: center;
+	}
+
+	header nav ul li {
+		display: block;
+	}
+	header nav ul li.selected {
+		border-bottom: none;
+		padding: 5px 0;
+		background-color: #33bde7;
+	}
+	div#marketing {
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+	}
+	div#marketing h1 {
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+
+	div#marketing h2 {
+		line-height: 1.2
+	}
+	div#marketing span.button {
+		width: 50%;
+		margin:0 auto;
+		padding: 5px;
+  		text-align:center;
+  		color:white;
+  		font-family:sans-serif;
+  		border: none;
+
+	}
+
+	div#email form input {
+		width:50%;
+	}
+	div#footer nav {
+		text-align: center;
+
+	}
+
+}
+
+div#marketing {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 0;
+
+}
+
+div#marketing h1 {
+	font-weight: 700;
+	color: #fff;
+	font-size: 70px;
+	margin: 0;
+	letter-spacing: -0.05em;
+	line-height: .9;
+
+}
+div#marketing h2 {
+	color:#fff;
+	font-size: 20px;
+
+}
+
+div#marketing span.button {
+	background-color:#33bde7;
+  	margin:0 auto;
+  	width: 30%;
+  	text-align:center;
+  	color:white;
+  	font-family:sans-serif;
+  	border: none;
+}
+
+div#features {
+	margin-top: 50px;
+	
+}
+
+div#features h2{
+	font-family: 'Source Pro Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #666666;
+	font-size: 21px;
+	margin: 0px;
+	text-align: center;
+}
+
+div#features h4 {
+	text-align: left;
+	font-weight: 300;
+	font-style: italic;
+	color: #666666;
+	font-size: 18px;
+	margin: 0;
+}
+
+div#features p {
+	text-align: left;
+	color: #666666;
+	font-size: 12px;
+	margin: 0 auto 10px;
+}
+
+
+div#users {
+	background-color: rgba(139, 164, 172, 0.5);
+	background-image: url('../images/jottly-crew1.png');
+	position: relative;
+	color: #fff;
+	text-align: center;
+	min-height: 500px;
+}
+
+
+div#users h2 {
+	font-family: 'Source Pro Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	margin: 200px 0 0 0;
+}
+
+div#users p {
+	margin: 0;
+}
+
+div#email {
+	background-color: #efefef;
+	text-align: center;
+	padding: 60px 0 20px;
+}
+
+div#email h5 {
+	font-size: 40px;
+	font-weight: 900;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+div#email h6 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+div#email form {
+	margin:0 0 15px 0;
+	padding: 0;
+}
+
+div#email form input{
+	display:inline;
+	width:400px;
+	border-radius: 4px;
+	border: none;
+	padding: 12px;
+}
+
+div#email form button{
+	background: #33bde7;
+	color: #232323;
+	text-shadow: none;
+	border: none;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+div#footer {
+	background-color: #33bde7;
+	color: #666666;	
+}
+
+div#footer nav {
+	margin: 15px 0;
+}
+
+div#footer p {
+	margin: 15px 0;
+	float: right;
+}
+
+div#footer nav ul {
+	list-style-type: none;
+}
+
+div#footer nav ul li{
+	display: inline;
+}
+
+div#footer nav ul li a{
+	color: #232323;
+	text-decoration: none;
+}
+
+
